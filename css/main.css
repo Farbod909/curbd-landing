@@ -41,6 +41,28 @@ nav.navbar {
     max-width: 1200px;
 }
 
+#curbdIntroCarouselContainer .carousel-item img {
+    width: 100%; 
+    max-width: 450px;   
+}
+#curbdIntroCarouselContainer .carousel-item {
+    text-align: center;
+}
+
+#curbdIntroCarouselContainer .carousel-item h1 {
+    padding: 20px;
+}
+
+#curbdIntroCarouselContainer .carousel-item .caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.caption-emphasize {
+    color: #d41c88;
+}
+
 #instructions h1 {
     text-align: center;
     padding: 40px 0px 40px 0px;
