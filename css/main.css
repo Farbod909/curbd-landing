@@ -1,3 +1,8 @@
+.bg-purple-gradient {
+    color: white;
+    background-image: linear-gradient( #a13485, #4b2f8a);
+}
+
 nav.navbar {
     background-color:  #a13485;
 }
@@ -10,36 +15,26 @@ nav.navbar {
     border: none;
 }
 
-.jumbotron {
+.tagline-container {
     text-align: center;
-    color: white;
-    background-image: linear-gradient( #a13485, #4b2f8a);
-    height: 80vh;
+    height: 85vh;
     max-height: 500px;
     margin-bottom: 0px;
-}
-
-.jumbotron .container {
-    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.jumbotron #tagline {
+#tagline {
     top: 50%;
 }
 
-.jumbotron #tagline button {
+#tagline button {
     border-radius: 20px;
 }
 
 #carouselContainer {
-    background: url(../assets/carouselbgvid.mp4) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;  
+    max-width: 1200px;
 }
 
 #instructions h1 {
@@ -55,6 +50,29 @@ nav.navbar {
 
 #instructions img {
     display: block;
-    width: 300px;
     margin: 0 auto;
+}
+
+#instructions [class*="col-"] img {
+    width: 90%;
+    min-width: 250px;
+}
+
+.features {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.features img {
+    margin: 20px;
+    height: 50px;
+    -webkit-filter: invert(100%);
+}
+
+.features p {
+    margin: 0px 20px 20px 20px;
+}
+
+.feature {
+    margin: 50px 20px 30px 20px;
 }
