@@ -15,6 +15,10 @@ nav.navbar {
     border: none;
 }
 
+.jumbotron {
+    padding-bottom: none;
+}
+
 .tagline-container {
     text-align: center;
     height: 85vh;
@@ -33,7 +37,7 @@ nav.navbar {
     border-radius: 20px;
 }
 
-#carouselContainer {
+#curbdIntroCarouselContainer {
     max-width: 1200px;
 }
 
