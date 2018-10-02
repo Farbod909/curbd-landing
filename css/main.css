@@ -132,6 +132,23 @@ nav.navbar {
     font-stretch: condensed;
 }
 
+@media screen and (max-width: 526px) {
+    #testimonialsCarousel h1 {
+        font-weight: 500;
+        font-size: 40px;
+        font-stretch: condensed;
+    }    
+}
+
+@media screen and (max-width: 340px) {
+    #testimonialsCarousel h1 {
+        font-weight: 500;
+        font-size: 34px;
+        font-stretch: condensed;
+    }    
+}
+
+
 #testimonialsCarousel .carousel-item {
     text-align: center;
 }
@@ -146,9 +163,12 @@ nav.navbar {
 }
 
 #pressContainer img {
-    height: 100px;
     margin: 0 auto;
     padding: 10px;
+    max-width: 100%;
+    max-height: 100px;
+    width: auto;
+    height: auto;
 }
 
 #pressContainer [class*="col-"] {
