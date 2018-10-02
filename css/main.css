@@ -3,6 +3,14 @@
     background-image: linear-gradient( #a13485, #4b2f8a);
 }
 
+.thick-font {
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+}
+
 nav.navbar {
     background-color:  #a13485;
 }
@@ -74,6 +82,10 @@ nav.navbar {
     margin: 0 auto;
 }
 
+.instruction h3 {
+    font-weight: 400;
+}
+
 #instructions img {
     display: block;
     margin: 0 auto;
@@ -102,3 +114,92 @@ nav.navbar {
 .feature {
     margin: 50px 20px 30px 20px;
 }
+
+.feature h4 {
+    font-weight: 400;
+}
+
+#testimonialsCarousel {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#testimonialsCarousel h1 {
+    font-weight: 500;
+    font-size: 54px;
+    font-stretch: condensed;
+}
+
+#testimonialsCarousel .carousel-item {
+    text-align: center;
+}
+
+#testimonialsCarousel .carousel-item .container {
+    max-width: 700px;
+}
+
+#pressContainer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#pressContainer img {
+    height: 100px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#pressContainer [class*="col-"] {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#contactUsContainer {
+    max-width: 800px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+#contactUsTitle, #contactUsSubtitle {
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+
+#contactUsContainer [class*="col-"].contact-link {
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#contactUsContainer [class*="col-"].contact-link h5 {
+    margin-bottom: 0px;
+}
+
+#contactUsContainer [class*="col-"].contact-link a {
+    color: white;
+}
+
+#contactUsContainer > * {
+    margin: 0 auto;
+}
+
+#contactUsForm input, #contactUsForm textarea {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#contactUsForm button[type="submit"] {
+    margin-top: 5px;
+    background-color: #7c5af6;
+    color: white;
+}
+
+#contactUsMessageTextarea {
+    height: 200px;
+}
+    
