@@ -13,12 +13,8 @@
     <script src="main.js"></script>
 
 </head>
-<body>
-<div id="topSection">
-    <video autoplay muted loop id="mainJumbotronVideo">
-        <source src="assets/main.mp4" type="video/mp4">
-    </video>    
-    <nav class="navbar navbar-expand-md navbar-dark">
+<body>              
+    <!-- <nav class="navbar navbar-expand-md navbar-dark">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="./assets/brand.png">
@@ -36,9 +32,20 @@
                 </ul>
             </div>        
         </div>            
-    </nav>
+    </nav> -->
     <div class="jumbotron jumbotron-fluid" id="mainJumbotron">
+        <video autoplay muted loop id="mainJumbotronVideo">
+            <source src="assets/main.mp4" type="video/mp4">
+        </video>                
         <div class="purple-gradient-overlay"></div>
+
+        <div class="container brand-container">
+            <div id="brand">
+                <img src="assets/brand.png">
+            </div>
+        </div>
+    
+        
         <div class="container tagline-container">
             <div id="tagline">
                 <h1 class="display-4">The smartest way to park.</h1>
@@ -92,10 +99,8 @@
                 </a>
             </div>        
         </div>
-
     
     </div>
-</div>
     <!-- <div class="container-fluid" id="carouselContainer">
         <div class="container">
             <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
