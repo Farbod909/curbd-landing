@@ -38,12 +38,17 @@ nav.navbar {
     padding: 0px;
 }
 
-#myVideo {
+#topSection {
+    position: relative;
+}
+
+#mainJumbotronVideo {
     position: absolute;
-    right: 0; 
-    bottom: 0;
-    min-width: 100%; 
+    left: 0; 
+    top: 0;
     min-height: 100%;
+    min-width: 100%; 
+    max-height: 100%;
     width: auto; 
     height: auto;  
     z-index: -1;
