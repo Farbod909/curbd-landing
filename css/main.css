@@ -122,7 +122,7 @@ nav.navbar {
 }
 
 .instructions {
-    padding-bottom: 80px;
+    padding-bottom: 40px;
 }
 
 .instructions h1 {
@@ -146,7 +146,7 @@ nav.navbar {
 }
 
 .instructions [class*="col-"] img {
-    width: 80%;
+    width: 90%;
     min-width: 250px;
 }
 
@@ -192,6 +192,13 @@ nav.navbar {
         font-size: 40px;
         font-stretch: condensed;
     }    
+}
+
+@media screen and (max-width: 783px) {
+    .instructions [class*="col-"] img {
+        padding: 20px;
+        padding-bottom: 40px;
+    }
 }
 
 @media screen and (max-width: 340px) {
