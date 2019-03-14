@@ -1,0 +1,26 @@
+#team-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.team-member-profile {
+    text-align: center;
+    padding: 10px;
+}
+
+.team-member-profile img {
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+    border-radius: 1000px;
+}
+
+.team-member-profile h2 {
+    margin-top: 20px;
+}
+
+.team-member-profile h5 {
+    margin-bottom: 20px;
+}
