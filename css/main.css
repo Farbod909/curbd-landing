@@ -127,6 +127,7 @@ nav.navbar {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    min-height: 450px;
 }
 
 .caption h1 {
@@ -219,7 +220,10 @@ nav.navbar {
 @media screen and (max-width: 340px) {
     #testimonialsCarousel h1 {
         font-size: 34px;
-    }    
+    }
+    #curbdIntroCarouselContainer .carousel-item .caption {
+        min-height: 530px;
+    }
 }
 
 
