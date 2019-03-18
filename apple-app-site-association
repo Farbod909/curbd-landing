@@ -4,7 +4,7 @@
         "details": [
             {
                 "appID": "RNPJYB8BGA.com.curbdllc.curbd",
-                "paths": ["/api/accounts/forget_password/confirm"]
+                "paths": ["/forget_password/confirm"]
             }
         ]
     }
